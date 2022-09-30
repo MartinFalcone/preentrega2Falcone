@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/fondo.jpg)
+}
+
+nav {
+    margin: 1%;
+    padding: 1% ;
+    background-color: crimson;
+    border-radius: 15px;
+    border-bottom: 5px dotted orange;
+}
+
+nav li {
+     text-decoration: none;
+     list-style: none;
+     
+
+}
+
+nav li a {
+    color: azure;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+nav li a:hover{
+    color: orange;
+    background-color: red;
+    border-radius: 7px;
+}
+
+main {
+    margin: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main img {
+
+    width: 100%;
+    border-radius: 15px;
+    border: solid 1px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+galeria {
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+ 
+
+}
+
+titulo {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+galeria div img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: 35%;
+}
+
+construccion {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
